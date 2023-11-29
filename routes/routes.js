@@ -13,6 +13,6 @@ routes.put('/user/update', user.updateUser);
 routes.get('/get-task', task.showTask);
 routes.post('/create-task', task.createTask);
 routes.put('/update-task', task.updateTask);
-routes.delete('delete-task', task.deleteTask);
+routes.delete('/delete-task', task.deleteTask);
 
 export default routes;
